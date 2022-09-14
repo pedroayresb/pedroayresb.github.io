@@ -1,0 +1,28 @@
+.project-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: #2D133E 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  font-size: small;
+}
+
+.card-img {
+  width: 100px;
+  height: 56.25px;
+}
+
+.project-card-techs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.tech-img {
+  width: 20px;
+  height: 20px;
+}
