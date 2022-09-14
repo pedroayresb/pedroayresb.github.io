@@ -8,7 +8,6 @@ function Profile() {
       <div className="profile-info">
         <h1>Pedro Ayres</h1>
         <p>Oi! Eu sou o Pedro, estudante de desenvolvimento Web Full-Stack na <a href="https://www.betrybe.com/">Trybe</a>!</p>
-        <a href="q">Curriculo</a>
       </div>
       <img src={placeholder} alt="placeholder" className="profile-img" />
     </section>
