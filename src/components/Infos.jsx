@@ -32,7 +32,7 @@ function Infos() {
         <h2>Contact</h2>
         <ul className="info-list">
           <li><a href="https://www.linkedin.com/in/pedroayresb/">LinkedIn</a></li>
-          <li><a href="pedroayresb@gmail.com">Email</a></li>
+          <li>pedroayresb@gmail.com</li>
           <li>+55 (92) 98405-6550</li>
         </ul>
       </div>
