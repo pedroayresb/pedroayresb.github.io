@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: flex-start;
   background-color: white;
-  height: 315px;
+  height: 400px;
   width: 20%;
   padding: 15px;
   border-radius: 8px;
@@ -28,7 +28,7 @@
   justify-content: flex-start;
   background-color: white;
   width: 20%;
-  height: 315px;
+  height: 400px;
   padding: 15px;
   border-radius: 8px;
 }
@@ -40,7 +40,7 @@
   justify-content: flex-start;
   background-color: white;
   width: 20%;
-  height: 315px;
+  height: 400px;
   padding: 15px;
   border-radius: 8px;
 }
@@ -59,7 +59,7 @@ ul {
   padding: 0;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 1080px) {
   .infos-container {
     flex-direction: column;
     gap: 10px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import placeholder from '../imgs/placeholder.png';
+import pedro from '../imgs/pedro.png';
 import '../styles/Profile.css';
 
 function Profile() {
@@ -9,7 +9,7 @@ function Profile() {
         <h1>Pedro Ayres</h1>
         <p>Oi! Eu sou o Pedro, estudante de desenvolvimento Web Full-Stack na <a href="https://www.betrybe.com/">Trybe</a>!</p>
       </div>
-      <img src={placeholder} alt="placeholder" className="profile-img" />
+      <img src={pedro} alt="placeholder" className="profile-img" />
     </section>
    );
 }

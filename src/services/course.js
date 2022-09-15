@@ -1,4 +1,4 @@
-import placeholder from '../imgs/placeholder.png';
+
 import HTML from '../imgs/html.png';
 import CSS from '../imgs/css.png';
 import JavaScript from '../imgs/javascript.png';
@@ -27,13 +27,11 @@ import shopping1 from '../imgs/shopping1.png';
 import shopping2 from '../imgs/shopping2.png';
 import solar1 from '../imgs/solar1.png';
 import solar2 from '../imgs/solar2.png';
-import tryunfo1 from '../imgs/tryunfo1.png';
-import tryunfo2 from '../imgs/tryunfo2.png';
-import tryunfo3 from '../imgs/tryunfo3.png';
 import wallet1 from '../imgs/wallet1.png';
 import wallet2 from '../imgs/wallet2.png';
 import wallet3 from '../imgs/wallet3.png';
 import wallet4 from '../imgs/wallet4.png';
+import construction from '../imgs/construction.png'
 
 
 export const trybeCourse = {
@@ -314,7 +312,7 @@ export const trybeCourse = {
         'pt-br': 'Desenvolvimento Front-end',
         en: 'Front-end Development',
       },
-      screenshots: [tryunfo1, tryunfo2, tryunfo3],
+      screenshots: [construction],
       techs: [HTML,CSS, JavaScript, React],
       link: 'linkedin.com/pedroayresb',
       startdate: '25-07-2022',
@@ -330,7 +328,7 @@ export const trybeCourse = {
         'pt-br': 'Desenvolvimento Front-end',
         en: 'Front-end Development',
       },
-      screenshots: [placeholder, placeholder, placeholder],
+      screenshots: [construction],
       techs: [HTML,CSS, JavaScript, React],
       link: 'linkedin.com/pedroayresb',
       startdate: '01-08-2022',
@@ -346,7 +344,7 @@ export const trybeCourse = {
         'pt-br': 'Desenvolvimento Front-end',
         en: 'Front-end Development',
       },
-      screenshots: [placeholder, placeholder, placeholder],
+      screenshots: [construction],
       techs: [HTML,CSS, JavaScript, React],
       link: 'linkedin.com/pedroayresb',
       startdate: '05-08-2022',
@@ -393,7 +391,7 @@ export const trybeCourse = {
         'pt-br': 'Desenvolvimento Front-end',
         en: 'Front-end Development',
       },
-      screenshots: [placeholder, placeholder, placeholder],
+      screenshots: [construction],
       techs: [HTML, CSS, JavaScript, React, Redux, Jest, RTL],
       link: 'linkedin.com/pedroayresb',
       startdate: '08-09-2022',
@@ -445,7 +443,7 @@ export const miniProjects = [
       'pt-br': 'Desenvolvimento Front-end',
       en: 'Front-end Development',
     },
-    screenshots: [placeholder, placeholder, placeholder],
+    screenshots: [construction],
     techs: [HTML,CSS, JavaScript, React],
     link: 'linkedin.com/pedroayresb',
     startdate: '01-08-2022',
@@ -461,7 +459,7 @@ export const miniProjects = [
       'pt-br': 'Desenvolvimento Front-end',
       en: 'Front-end Development',
     },
-    screenshots: [placeholder, placeholder, placeholder],
+    screenshots: [construction],
     techs: [HTML,CSS, JavaScript, React],
     link: 'linkedin.com/pedroayresb',
     startdate: '05-08-2022',

@@ -7,7 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   height: 100%;
-  font-family: 'courier new';
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-size: 3em;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond';
+  font-size: 30px;
+}
+
+p, a, li, span {
+  font-family: 'Pavanam';
+  font-size: 24px;
 }
 
 code {
