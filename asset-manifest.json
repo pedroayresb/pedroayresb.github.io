@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2edb322d.css",
-    "main.js": "/static/js/main.ee2fb565.js",
+    "main.js": "/static/js/main.3ba9ab26.js",
     "static/media/color3.png": "/static/media/color3.b79a42fec190c9cfaa62.png",
     "static/media/color2.png": "/static/media/color2.25433766274543f86d02.png",
     "static/media/color1.png": "/static/media/color1.9accf8a7d1885e0efd70.png",
@@ -14,9 +14,11 @@
     "static/media/shopping1.png": "/static/media/shopping1.ae4fc075da9ef3cee8a6.png",
     "static/media/meme1.png": "/static/media/meme1.593588dda4080c77ada8.png",
     "static/media/meme2.png": "/static/media/meme2.f209461423b8bac25fa2.png",
+    "static/media/wallet4.png": "/static/media/wallet4.58f9b96997688b725a4f.png",
     "static/media/lessonslearned.png": "/static/media/lessonslearned.48b464a0aad781880970.png",
     "static/media/warts2.png": "/static/media/warts2.cd5a328fb6be9b8c777a.png",
     "static/media/warts1.png": "/static/media/warts1.8c9a943b5a4c75c3383d.png",
+    "static/media/wallet3.png": "/static/media/wallet3.aabd9e97cf44e039b93a.png",
     "static/media/warts3.png": "/static/media/warts3.51486bdf5321bc2e448e.png",
     "static/media/css.png": "/static/media/css.4e67641bb68b658d9b2b.png",
     "static/media/tryunfo3.png": "/static/media/tryunfo3.be263889ed8589b4dcd1.png",
@@ -30,12 +32,13 @@
     "static/media/mistery2.png": "/static/media/mistery2.e2e7d32b2f058d92cbe3.png",
     "static/media/mistery1.png": "/static/media/mistery1.72d94172069ea82454ba.png",
     "static/media/redux.png": "/static/media/redux.543b98d3c75b48613322.png",
+    "static/media/wallet2.png": "/static/media/wallet2.ebfa74c3004184f8b373.png",
     "index.html": "/index.html",
     "main.2edb322d.css.map": "/static/css/main.2edb322d.css.map",
-    "main.ee2fb565.js.map": "/static/js/main.ee2fb565.js.map"
+    "main.3ba9ab26.js.map": "/static/js/main.3ba9ab26.js.map"
   },
   "entrypoints": [
     "static/css/main.2edb322d.css",
-    "static/js/main.ee2fb565.js"
+    "static/js/main.3ba9ab26.js"
   ]
 }
