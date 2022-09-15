@@ -31,3 +31,11 @@
   }
 }
 
+@media only screen and (max-width: 300px) {
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+

@@ -28,3 +28,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 300px) {
+  h1, h2, h3, h4, h5, h6, p, a, span, li {
+    font-size: 8px;
+  }
+}
+
