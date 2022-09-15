@@ -4,6 +4,7 @@ import Profile from '../components/Profile';
 import InfosPT from '../components/InfosPT';
 import WelcomeProjects from '../components/WelcomeProjects';
 import { motion } from 'framer-motion';
+import '../styles/styles.css';
 
 class WelcomePt extends Component {
   render() { 

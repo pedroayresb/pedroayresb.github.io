@@ -8,7 +8,7 @@ import css from '../imgs/css.png';
 import html from '../imgs/html.png';
 import redux from '../imgs/redux.png';
 import framer from '../imgs/framer.png';
-import '../styles/Footer.css';
+import '../styles/styles.css';
 
 
 function Footer(props) {

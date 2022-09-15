@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../components/Header';
 import ProgressBar from '../components/ProgressBar';
 import ProjectsContainer from '../components/ProjectsContainer';
-import '../styles/Projects.css';
+import '../styles/styles.css';
 import { motion } from 'framer-motion';
 
 class Projects extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { trybeCourse } from '../services/course';
 import { connect } from 'react-redux';
-import '../styles/ProgressBar.css';
+import '../styles/styles.css';
 
 class ProgressBar extends Component {
   constructor() {

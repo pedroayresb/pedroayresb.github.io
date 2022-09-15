@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { languageChange } from '../redux/actions/index';
 import { useNavigate } from "react-router-dom"
 import { motion } from 'framer-motion';
-import '../styles/Loading.css'
+import '../styles/styles.css';
 
 
 function Start(props) {

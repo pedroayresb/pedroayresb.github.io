@@ -1,5 +1,6 @@
 import React from 'react';
 import pedro from '../imgs/pedro.png';
+import '../styles/styles.css';
 
 function ProfileEN() {
   return ( 

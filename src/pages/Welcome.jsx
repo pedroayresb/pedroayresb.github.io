@@ -4,6 +4,7 @@ import ProfileEN from '../components/ProfileEN';
 import Infos from '../components/Infos';
 import WelcomeProjects from '../components/WelcomeProjects';
 import { motion } from 'framer-motion';
+import '../styles/styles.css';
 
 class Welcome extends Component {
   render() {

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import Popup from 'reactjs-popup';
 import ProjectView from './ProjectView';
-import '../styles/CardStyle.css';
+import '../styles/styles.css';
 
 class ProjectCard extends Component {
   descriptionLanguage = () => {

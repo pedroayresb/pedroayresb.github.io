@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/InfosStyle.css';
+import '../styles/styles.css';
 
 function Infos() {
   return ( 

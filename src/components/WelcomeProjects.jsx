@@ -3,7 +3,7 @@ import Loading from './Loading';
 import ProjectCard from './ProjectCard';
 import { connect } from 'react-redux';
 import { miniProjects, trybeCourse } from '../services/course';
-import '../styles/ProjectsContainer.css';
+import '../styles/styles.css';
 
 
 class WelcomeProjects extends Component {
