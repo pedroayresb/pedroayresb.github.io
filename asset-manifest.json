@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ad637f7.css",
+    "main.css": "/static/css/main.ca83bdd9.css",
     "main.js": "/static/js/main.c87de398.js",
     "static/media/color3.png": "/static/media/color3.b79a42fec190c9cfaa62.png",
     "static/media/color2.png": "/static/media/color2.25433766274543f86d02.png",
@@ -32,11 +32,11 @@
     "static/media/redux.png": "/static/media/redux.543b98d3c75b48613322.png",
     "static/media/wallet2.png": "/static/media/wallet2.ebfa74c3004184f8b373.png",
     "index.html": "/index.html",
-    "main.7ad637f7.css.map": "/static/css/main.7ad637f7.css.map",
+    "main.ca83bdd9.css.map": "/static/css/main.ca83bdd9.css.map",
     "main.c87de398.js.map": "/static/js/main.c87de398.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ad637f7.css",
+    "static/css/main.ca83bdd9.css",
     "static/js/main.c87de398.js"
   ]
 }
