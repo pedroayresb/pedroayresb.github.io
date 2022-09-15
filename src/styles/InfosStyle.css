@@ -59,6 +59,12 @@ ul {
   padding: 0;
 }
 
+.infos-container li {
+  font-size: 22px;
+  color: #2D133E;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 1080px) {
   .infos-container {
     flex-direction: column;
@@ -79,8 +85,8 @@ ul {
 }
 
 @media only screen and (max-width: 300px) {
-  .contact-container:li {
-    font-size: 4px;
+  .infos-container li {
+    font-size: 18px;
   }
 }
 

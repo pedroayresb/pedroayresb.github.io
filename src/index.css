@@ -11,27 +11,17 @@ body {
 
 h1 {
   font-family: 'Raleway';
-  font-size: 3em;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: 'Cormorant Garamond';
-  font-size: 30px;
 }
 
 p, a, li, span {
   font-family: 'Pavanam';
-  font-size: 24px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-@media only screen and (max-width: 300px) {
-  h1, h2, h3, h4, h5, h6, p, a, span, li {
-    font-size: 8px;
-  }
-}
-

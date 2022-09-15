@@ -16,3 +16,9 @@
 .language {
   margin-left: 15px;
 }
+
+.change-text {
+  font-size: 18px;
+  color: #2D133E;
+  font-weight: 500;
+}

@@ -23,9 +23,9 @@ function Footer(props) {
 
   const flag = () => {
     if(props.language === 'pt-br') {
-      return <span style={{color: 'black'}} >Mudar Linguagem 🇧🇷</span>
+      return <span className="change-text" style={{color: 'black'}} >Mudar Linguagem 🇧🇷</span>
     } else {
-      return <span style={{color: 'black'}} >Change Language 🇺🇸</span>
+      return <span className="change-text" style={{color: 'black'}} >Change Language 🇺🇸</span>
     }
   }
 

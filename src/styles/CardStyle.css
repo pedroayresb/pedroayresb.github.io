@@ -11,6 +11,20 @@
   font-size: small;
 }
 
+.project-card:hover {
+  box-shadow: #2D133E 15px 15px 15px;
+}
+
+.project-card h4 {
+  font-size: 25px;
+}
+
+.project-card p {
+  font-size: 22px;
+  color: #2D133E;
+  font-weight: 500;
+}
+
 .card-img {
   width: 300px;
   height: 168.75px;
