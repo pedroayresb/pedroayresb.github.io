@@ -30,6 +30,11 @@ import solar2 from '../imgs/solar2.png';
 import tryunfo1 from '../imgs/tryunfo1.png';
 import tryunfo2 from '../imgs/tryunfo2.png';
 import tryunfo3 from '../imgs/tryunfo3.png';
+import wallet1 from '../imgs/wallet1.png';
+import wallet2 from '../imgs/wallet2.png';
+import wallet3 from '../imgs/wallet3.png';
+import wallet4 from '../imgs/wallet4.png';
+
 
 export const trybeCourse = {
   startDate: {
@@ -136,7 +141,6 @@ export const trybeCourse = {
         'pt-br': 'Fundamentos do Desenvolvimento Web',
         en: 'Web Development Fundamentals',
       },
-      screenshots: [placeholder, placeholder, placeholder],
       techs: [JavaScript],
       link: 'linkedin.com/pedroayresb',
       startdate: '18-05-2022',
@@ -248,7 +252,6 @@ export const trybeCourse = {
         'pt-br': 'Fundamentos do Desenvolvimento Web',
         en: 'Web Development Fundamentals',
       },
-      screenshots: [placeholder, placeholder, placeholder],
       techs: [JavaScript, Jest],
       link: 'linkedin.com/pedroayresb',
       startdate: '20-06-2022',
@@ -264,8 +267,7 @@ export const trybeCourse = {
         'pt-br': 'Fundamentos do Desenvolvimento Web',
         en: 'Web Development Fundamentals',
       },
-      screenshots: [placeholder, placeholder, placeholder],
-      techs: [JavaScript],
+      techs: [JavaScript, Jest],
       link: 'linkedin.com/pedroayresb',
       startdate: '29-06-2022',
       enddate: '01-07-2022',
@@ -360,7 +362,6 @@ export const trybeCourse = {
         'pt-br': 'Desenvolvimento Front-end',
         en: 'Front-end Development',
       },
-      screenshots: [placeholder, placeholder, placeholder],
       techs: [Jest, RTL],
       link: 'linkedin.com/pedroayresb',
       startdate: '15-08-2022',
@@ -376,7 +377,7 @@ export const trybeCourse = {
         'pt-br': 'Desenvolvimento Front-end',
         en: 'Front-end Development',
       },
-      screenshots: [placeholder, placeholder, placeholder],
+      screenshots: [wallet1, wallet2, wallet3, wallet4],
       techs: [HTML,CSS, JavaScript, React, Redux, Jest, RTL],
       link: 'linkedin.com/pedroayresb',
       startdate: '27-08-2022',
@@ -412,7 +413,7 @@ export const miniProjects = [
       'pt-br': 'Fundamentos do Desenvolvimento Web',
       en: 'Web Development Fundamentals',
     },
-    screenshots: [placeholder, placeholder, placeholder],
+    screenshots: [lessonslearned],
     techs: [HTML, CSS],
     link: 'linkedin.com/pedroayresb',
     startdate: '11-05-2022',
@@ -428,7 +429,7 @@ export const miniProjects = [
       'pt-br': 'Fundamentos do Desenvolvimento Web',
       en: 'Web Development Fundamentals',
     },
-    screenshots: [placeholder, placeholder, placeholder],
+    screenshots: [pixelArt1, pixelArt2, pixelArt3],
     techs: [HTML, CSS, JavaScript],
     link: 'linkedin.com/pedroayresb',
     startdate: '25-05-2022',
@@ -476,7 +477,7 @@ export const miniProjects = [
       'pt-br': 'Desenvolvimento Front-end',
       en: 'Front-end Development',
     },
-    screenshots: [placeholder, placeholder, placeholder],
+    screenshots: [wallet1, wallet2, wallet3, wallet4],
     techs: [HTML,CSS, JavaScript, React, Redux, Jest, RTL],
     link: 'linkedin.com/pedroayresb',
     startdate: '27-08-2022',

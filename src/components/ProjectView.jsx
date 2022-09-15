@@ -50,15 +50,9 @@ function ProjectView(props) {
     }
   }
 
-  return (
-    <AnimatePresence>
-      <motion.div
-        key="modal"
-        className="project-popup"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
+  const isImage = () => {
+    if (screenshots !== undefined) {
+      return (
         <Carousel
           dinamicHeight
           autoPlay
@@ -70,8 +64,24 @@ function ProjectView(props) {
           <div>
             <img src={screenshot} alt={name} key={index} className="project-slider" />
           </div>
-        ))}          
+        ))}
         </Carousel>
+      );
+    } else {
+      return null 
+    }
+  }
+
+  return (
+    <AnimatePresence>
+      <motion.div
+        key="modal"
+        className="project-popup"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+        {isImage()}
         <div className="project-info">
           <h2>{name}</h2>
           <h4>{module}</h4>

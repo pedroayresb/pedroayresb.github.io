@@ -14,6 +14,19 @@ class ProjectCard extends Component {
     }
   }
 
+  isImage = () => {
+    const { screenshots, name } = this.props;
+    if (screenshots === undefined) {
+      return null
+    } else {
+      return (
+        <div className="project-card-image">
+          <img src={screenshots[0]} alt={name} className="card-img" />
+        </div>
+      ); 
+    }
+  }
+
   moduleLanguage = () => {
     const { module, language } = this.props;
     if(language === 'pt-br') {
@@ -36,9 +49,7 @@ class ProjectCard extends Component {
       <Popup
         trigger={
       <div className="project-card">
-        <div className="project-card-image">
-          <img src={screenshots[0]} alt={name} className="card-img" />
-        </div>
+        {this.isImage()}
         <div className="project-card-content">
           <h4>{name}</h4>
           <p>{ this.moduleLanguage() }</p>
@@ -93,9 +104,15 @@ class ProjectCard extends Component {
 
 ProjectCard.propTypes = {
   name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  module: PropTypes.string.isRequired,
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  description: PropTypes.shape({
+    en: PropTypes.string.isRequired,
+    'pt-br': PropTypes.string.isRequired,
+  }).isRequired,
+  module: PropTypes.shape({
+    en: PropTypes.string.isRequired,
+    'pt-br': PropTypes.string.isRequired,
+  }).isRequired,
+  images: PropTypes.arrayOf(PropTypes.string),
   link: PropTypes.string.isRequired,
   techs: PropTypes.arrayOf(PropTypes.string).isRequired,
   startDate: PropTypes.string.isRequired,
