@@ -18,7 +18,8 @@
     className="grid items-center border border-white text-[10px] rounded-lg p-4 m-2 justify-center mdlg:w-[30%] w-[90%] h-[40%] mdlg:text-[15px] text-center transition-opacity duration-500 ease-in"
     @mouseleave="overlay = false"
   >
-    {{ project.description }}
+    <p>{{ project.description }}</p>
+    <p className="self-end">Clique para ir ao repositorio</p>
   </a>
 </template>
 

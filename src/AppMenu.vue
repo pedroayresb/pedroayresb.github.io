@@ -1,6 +1,6 @@
 <template>
   <nav
-    className="w-full flex justify-around p-6 sticky top-0 items-center grow text-sm"
+    className="w-full flex justify-around p-6 sticky top-0 items-center grow text-2xl nav-bar"
   >
     <div
       :class="{
@@ -8,8 +8,8 @@
         'flex-row': true,
         'items-center': true,
         'w-fit': true,
-        'bg-[#121212]': currentPage === 'aboutPage',
-        'bg-[#101010]': currentPage !== 'aboutPage',
+        'bg-[#f1f1f1]': currentPage === 'aboutPage',
+        'bg-[#ffffff]': currentPage !== 'aboutPage',
         'rounded-full': true,
         'p-3': true,
         'transition-colors': true,
@@ -27,12 +27,12 @@
         ref="homePage"
         @click="goToPage('homePage')"
         :class="{
-          'text-[#91008c]': currentPage === 'homePage',
+          'text-[#ac16a7]': currentPage === 'homePage',
           'p-3': true,
           'md:p-6': true,
-          'hover:text-[#454545]': currentPage === 'homePage',
+          'hover:text-black': currentPage === 'homePage',
           'hover:text-[#390037]': currentPage !== 'homePage',
-          'text-white': currentPage !== 'homePage',
+          'text-black': currentPage !== 'homePage',
           'hover:cursor-pointer': true,
         }"
       >
@@ -43,12 +43,12 @@
         ref="about"
         @click="goToPage('aboutPage')"
         :class="{
-          'text-[#91008c]': currentPage === 'aboutPage',
+          'text-[#ac16a7]': currentPage === 'aboutPage',
           'p-3': true,
           'md:p-6': true,
-          'hover:text-[#454545]': currentPage === 'aboutPage',
+          'hover:text-black': currentPage === 'aboutPage',
           'hover:text-[#390037]': currentPage !== 'aboutPage',
-          'text-white': currentPage !== 'aboutPage',
+          'text-black': currentPage !== 'aboutPage',
           'hover:cursor-pointer': true,
         }"
       >
@@ -59,12 +59,12 @@
         ref="projects"
         @click="goToPage('projectsPage')"
         :class="{
-          'text-[#91008c]': currentPage === 'projectsPage',
+          'text-[#ac16a7]': currentPage === 'projectsPage',
           'p-3': true,
           'md:p-6': true,
-          'hover:text-[#454545]': currentPage === 'projectsPage',
+          'hover:text-black': currentPage === 'projectsPage',
           'hover:text-[#390037]': currentPage !== 'projectsPage',
-          'text-white': currentPage !== 'projectsPage',
+          'text-black': currentPage !== 'projectsPage',
           'hover:cursor-pointer': true,
         }"
       >
@@ -73,6 +73,12 @@
     </div>
   </nav>
 </template>
+
+<style scoped>
+.nav-bar {
+  z-index: 100;
+}
+</style>
 
 <script lang="js">
 import { defineComponent } from "vue";

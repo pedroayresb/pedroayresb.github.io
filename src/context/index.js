@@ -32,6 +32,12 @@ const store = createStore({
     },
     setCurrentPage(state, page) {
       state.currentPage = page;
+      if (page === 'homePage') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        state.currentPage = page;
+        this.commit("setCurrentPageWithScroll");
+        return;
+      }
       const id = document.getElementById(page);
       if (id) {
         id.scrollIntoView({ behavior: "smooth" });
